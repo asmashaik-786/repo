@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<form action="/action_page.php">
+  <div class="container">
+    <h1> Funding Page</h1>
+    <hr>
+    <label for="Surname"><b>Surname</b></label>
+    <input type="text" placeholder="Enter Surname" required>
+
+    <label for="Given Name"><b>Given Name</b></label>
+    <input type="text" placeholder="Enter Given Name" required>
+
+<label for="Gender"><b>Gender</b></label>
+    <input type="text" placeholder="Enter Given Name" required>
+
+
+
+    <label for=" Phone Number"><b>Phone Number</b></label>
+    <input type="text" placeholder="Enter Phone Number" required>
+
+ 
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+  <br>
+ 
+  <h2>Please select your Funding method :</h2>
+  <label><input type="radio" id="Retained Earnings" name="Retained Earnings" value="Retained Earnings">Retained Earnings</label>
+  <label><input type="radio" id="Debt Capital" name="Debt Capital" value="Debt Capital">Debt Capital</label>
+  <label><input type="radio" id="Equity Capital" name="Equity Capital" value="Equity Capital">other</label>
+  <label><input type="radio" id="Other Funding Sources" name="Other Funding Sources" value="Other Funding Sources">Other Funding Sources</label>
+
+  <br>
+
+ <label for="Comment"><b>Comment</b></label>
+    <input type="text" placeholder="Comment" required>
+
+   <h3>Please select your Payment method :</h3>
+ 
+ <label><input type="radio" id="Debit/credit Card" name="Debit/credit Card" value="Debit/credit Card">Debit/credit Card</label>
+  <label><input type="radio" id="Online Payment" name="Online Payment" value="Online Payment">Online Payment</label>
+
+ 
+
+</form>
+
+</body>
+</html>
+
+
+     
+    <hr>
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+    <button type="submit" class="registerbtn">Fundind</button>
+  </div>
+ 
+
+   
+  </div>
+</form>
+
+</body>
+</html>
